@@ -1,0 +1,16 @@
+{
+  "textBox": {
+    "fullName": "Ramesh Shanker",
+    "email": "ramesh@example.com",
+    "currentAddress": "Current Address - XQA Practice",
+    "permanentAddress": "Permanent Address - XQA Practice"
+  },
+  "practiceForm": {
+    "firstName": "Ramesh",
+    "lastName": "Shanker",
+    "email": "ramesh@example.com",
+    "mobile": "9876543210",
+    "gender": "Male",
+    "address": "Kerala, India"
+  }
+}

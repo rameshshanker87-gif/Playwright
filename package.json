@@ -1,0 +1,19 @@
+{
+  "name": "xqa-practice-playwright-js",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ready-to-run Playwright JavaScript POM project for XQA practice site",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:chromium": "playwright test --project=chromium",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "allure:report": "npm run allure:generate && npm run allure:open"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "allure-playwright": "3.4.2",
+    "dotenv": "17.2.2"
+  }
+}
